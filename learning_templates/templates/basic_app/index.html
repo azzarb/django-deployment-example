@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+  <h1>Welcome to Index page</h1>
+<h2>{{ text | upper}}</h2> <!-- this is filter template the pipe operator-->
+  <h2>{{ number | add:"99" }}</h2> <!-- this will add 99 to the given value -->
+{% endblock %}<!-- <html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to Index</h1>
+  </body>
+</html> -->
