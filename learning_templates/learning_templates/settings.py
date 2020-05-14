@@ -26,7 +26,7 @@ SECRET_KEY = 'kj@z#oawrsgt+fu_+&vsabc(c$y6uh=q3$fso4)oufiu$9)l-j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['azzarb.pythonanywhere.com']
 
 
 # Application definition
